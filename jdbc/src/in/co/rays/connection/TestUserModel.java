@@ -8,7 +8,10 @@ public class TestUserModel {
 //		  testAdd();
 //		  testDelete();
 //	 testUpdate();
-			testFindByPk();
+//			testDelete();
+//			testFindByPk();
+			
+//			testAuthenticate()
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -71,6 +74,10 @@ public class TestUserModel {
 		} else {
 			System.out.println("Record not found");
 		}
+		
+		
 	}
+	
+	
 
 }
